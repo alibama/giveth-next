@@ -42,6 +42,7 @@ const SocialNetworks = ({ compressed }) => {
             viewBox='0 0 169 185'
             fill='none'
             xmlns='http://www.w3.org/2000/svg'
+            alt='Giveth Documentation'
           >
             <path
               d='M76.4618 121V116.872C74.4778 118.472 72.2698 119.688 69.8378 120.52C67.4058 121.288 64.8778 121.672 62.2538 121.672C58.7338 121.672 55.4058 121 52.2698 119.656C49.1978 118.312 46.5098 116.488 44.2058 114.184C41.9018 111.88 40.0778 109.16 38.7338 106.024C37.4538 102.888 36.8138 99.528 36.8138 95.944C36.8138 92.36 37.4858 89 38.8298 85.864C40.1738 82.728 41.9978 80.008 44.3018 77.704C46.6058 75.4 49.3258 73.608 52.4618 72.328C55.6618 70.984 59.0538 70.312 62.6378 70.312C65.0698 70.312 67.4378 70.664 69.7418 71.368C72.1098 72.008 74.2858 72.968 76.2698 74.248V53.8L89.4218 50.92V121H76.4618ZM49.7738 95.944C49.7738 99.976 51.1818 103.4 53.9978 106.216C56.8138 109.032 60.2698 110.44 64.3657 110.44C66.7978 110.44 69.0058 110.024 70.9897 109.192C73.0378 108.36 74.7978 107.176 76.2698 105.64V86.152C74.8618 84.68 73.1018 83.528 70.9897 82.696C68.9417 81.864 66.7337 81.448 64.3657 81.448C60.2057 81.448 56.7178 82.856 53.9018 85.672C51.1498 88.424 49.7738 91.848 49.7738 95.944Z'
@@ -70,25 +71,25 @@ const SocialNetworks = ({ compressed }) => {
           </svg>
         </SocialLink>
         <SocialLink href='https://medium.com/giveth/'>
-          <FaMedium size='24px' />
+          <FaMedium size='24px' alt='Giveth Medium Writing' />
         </SocialLink>
         <SocialLink href='/join'>
-          <FaComments size='24px' />
+          <FaComments size='24px' alt='Join us' />
         </SocialLink>
         <SocialLink href='https://twitter.com/givethio'>
-          <FaTwitter size='24px' />
+          <FaTwitter size='24px' alt='Follow Giveth on Twitter' />
         </SocialLink>
         <SocialLink href='https://github.com/giveth'>
-          <FaGithub size='24px' />
+          <FaGithub size='24px' alt='Giveth on Github' />
         </SocialLink>
         <SocialLink href='https://reddit.com/r/giveth'>
-          <FaReddit size='24px' />
+          <FaReddit size='24px' alt='Giveth on Reddit' />
         </SocialLink>
         <SocialLink href='https://facebook.com/givethio'>
-          <FaFacebook size='24px' />
+          <FaFacebook size='24px' alt='Giveth on Facebonk' />
         </SocialLink>
         <SocialLink href='https://www.youtube.com/channel/UClfutpRoY0WTVnq0oB0E0wQ'>
-          <FaYoutube size='24px' />
+          <FaYoutube size='24px' alt='Giveth on Youtube' />
         </SocialLink>
       </LinkContainer>
     </SocialContainer>
